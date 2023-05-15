@@ -2,7 +2,7 @@ import axios from "axios"
 import { getSavedToken } from "./auth"
 
 export const api = axios.create({
-  baseURL: "https://ru-pay-production.up.railway.app/",
+  baseURL: "http://localhost:8080",
 })
 
 api.interceptors.request.use(

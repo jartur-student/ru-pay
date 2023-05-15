@@ -1,4 +1,3 @@
-export const pixKey = process.env["PIX_KEY"]!;
 
 export const accessTokenSecret = process.env["ACCESS_TOKEN_SECRET"]!;
 
